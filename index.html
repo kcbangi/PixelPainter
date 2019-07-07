@@ -1,10 +1,36 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link href="css/PixelPainter.css" rel="stylesheet" media="screen" />
   </head>
+
   <body>
     <h1>Pixel Painter</h1>
+
+    <form id="menu">
+      <input
+        type="number"
+        id="height"
+        name="height"
+        min="1"
+        max="100"
+        value="15"
+      />
+      <input
+        type="number"
+        id="width"
+        name="width"
+        min="1"
+        max="100"
+        value="15"
+      />
+      <input type="submit" />
+
+      <input type="color" id="color" value="#abcdef" />
+    </form>
+
     <div id="pixelPainter"></div>
+
     <script src="js/PixelPainter.js"></script>
   </body>
 </html>

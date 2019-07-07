@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+#pixelPainter {
+  margin: 1em auto;
+  display: table;
+  border-spacing: 0px;
+  background-color: white;
+  border: 4px solid black;
+}
+.pixel {
+  display: table-cell;
+  width: 20px;
+  height: 20px;
+  border: 0.5px dotted black;
+}
