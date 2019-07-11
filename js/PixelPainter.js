@@ -25,7 +25,7 @@ for (let i = 0; i < pixels.length; i++) {
     let color = document.querySelector("#color").value;
     this.style.backgroundColor = color;
   });
-  pixels[i].addEventListener("mousedown", function() {
+  pixels[i].addEventListener("mouseover", function() {
     mouseDown = true;
     let color = document.querySelector("#color").value;
     this.style.backgroundColor = color;
