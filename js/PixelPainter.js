@@ -19,15 +19,14 @@ canvasGrid(15);
 
 let mouseDown = false;
 let pixels = document.querySelectorAll(".pixel");
+let color = document.querySelector("#color").value;
 for (let i = 0; i < pixels.length; i++) {
-  pixels[i].addEventListener("dragover", function() {
-    mouseDown = true;
-    let color = document.querySelector("#color").value;
+  pixels[i].addEventListener("mousedown", function() {
     this.style.backgroundColor = color;
+    mouseDown = true;
   });
   pixels[i].addEventListener("mouseover", function() {
-    mouseDown = true;
-    let color = document.querySelector("#color").value;
+    if (mouseDown === true);
     this.style.backgroundColor = color;
   });
   pixels[i].addEventListener("mouseup", function() {
