@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background: #03725a;
+  background: linear-gradient(to right, #070707, #3d687c 70%, #1f4042);
+}
+h1 {
+  color: #a7aeb3;
+}
+#pixelPainter {
+  margin: 1em auto;
+  display: table;
+  border-spacing: 0px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.pixel {
+  display: table-cell;
+  width: 20px;
+  height: 20px;
+  border: 0.5px dotted black;
+}
